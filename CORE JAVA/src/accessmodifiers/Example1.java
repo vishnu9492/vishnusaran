@@ -1,12 +1,12 @@
 package accessmodifiers;
 
 public class Example1 {
-public int i=10; //instance variable
-int j=20;
-private int k=30;
-protected int p=40;
-public void test1() {
-	System.out.println("public method");
+public int i=10; //instance variable//any where we can access
+int j=20;//within package
+private int k=30;//within class only
+protected int p=40;//we access protected access modifier through inheritance
+public void test1() {//from outside package,within package we can access 
+	System.out.println("public method");//protected
 }
 void test2() {
 	System.out.println("default method");
